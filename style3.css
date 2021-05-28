@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: var(--fuente);
+}
+
+.header {
+    background-color: #9b9b9b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.header img {
+    padding-left: 30px;
+    padding: 30px;
+}
+
+.Login {
+    padding-right: 13rem;
+    margin: 1rem;
+}
+
+.password {
+    margin: 1rem;
+}
+
+.password button {
+    background: #332f2c;
+    color: white;
+    height: 1.5rem;
+    width: 1.8rem;
+}
+
+.header h6 {
+    color: black;
+    margin: 1rem;
+}
+
+.menu {
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: inherit black;
+}
+
+#p-men {
+    padding: 30px;
+    margin: 15px;
+}
+
+#title-a {
+    margin: 20px;
+}
+
+.abt {
+    color: black;
+    font-size: 70px;
+}
+
+#list {
+    margin: 20px;
+    color: #332f2c;
+}
+
+.profile {
+    color: #EEEEEE;
+}
+
+#form1 {}
+
+.name {
+    margin-left: 10rem;
+}
+
+.requi {
+    margin-left: 15rem;
+}
+
+.email {
+    margin-left: 9rem;
+    padding: 15px;
+}
